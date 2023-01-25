@@ -125,3 +125,6 @@ body{
     color: rgb(175, 67, 67);
 }
 
+.submit{
+    cursor: pointer;
+}
