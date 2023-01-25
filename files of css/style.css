@@ -1,0 +1,86 @@
+.header{
+    background-color: #d3d3d3;
+    display: inline-block;
+    padding: 10px 500px 10px 500px;
+    margin: auto ;
+    border-top-style: dashed ;
+    border-right-style: dashed ;
+    border-left-style: dashed ;
+    border-top-width: 5px ;
+    border-right-width: 5px ;
+    border-left-width: 5px ;
+}
+
+.basic-html{
+    background-color: #bdbebd;
+    display: inline-block;
+    padding: 10px 500px 0px 50px;
+    margin: auto ;
+    border-right-style: dashed ;
+    border-left-style: dashed ;
+    border-right-width: 5px ;
+    border-left-width: 5px ;
+}
+
+.what-is-html{
+    background-color: #a9a9a9;
+    display: inline-block;
+    padding: 20px 500px 0px 50px;
+    margin: auto ;
+    border-right-style: dashed ;
+    border-left-style: dashed ;
+    border-right-width: 5px ;
+    border-left-width: 5px ;
+}
+
+.why-learn-html{
+    background-color: #949494;
+    display: inline-block;
+    padding: 10px 834px 0px 50px;
+    margin: auto ;
+    border-right-style: dashed ;
+    border-left-style: dashed ;
+    border-right-width: 5px ;
+    border-left-width: 5px ;
+}
+
+.footer{
+    background-color: #808080;
+    display: inline-block;
+    padding: 10px 600px 50px 500px;
+    border-right-style: dashed ;
+    border-left-style: dashed ;
+    border-bottom-style: dashed ;
+    border-right-width: 5px ;
+    border-left-width: 5px ;
+    border-bottom-width: 5px ;
+}
+
+.head{
+    color: red;
+
+}
+
+.sub-head{
+    color: red;
+}
+
+.owner{
+    color: red;
+}
+
+.html{
+    color: red;
+}
+
+.list1{
+    color: red;
+}
+
+.list2{
+    color: red;
+}
+
+.author{
+    color: red;
+}
