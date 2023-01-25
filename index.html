@@ -10,11 +10,15 @@
 <body>
         <!-- start header -->
         <header class="header">
-            <h1 class="head"><b>the code magazine</b></h1>
-            <a href="">Blog</a>
-            <a href="">Challengse</a>
-            <a href="">Flexbox</a>
-            <a href="">CSS Grid</a>
+            <div class="code-magazine">
+                <h1 class="head">the code magazine</h1>
+            </div>
+            <div class="links">
+                <a href="" class="links2">Blog-</a>
+                <a href="" class="links2">Challengse-</a>
+                <a href="" class="links2">Flexbox-</a>
+                <a href="" class="links2">CSS Grid</a>
+            </div>
         </header>
         <!-- end header -->
         
@@ -22,7 +26,7 @@
         <section class="basic-html">
             <!-- <b><h2>The Basic Language of the Web: HTML</h2></b> -->
             <h2 class="sub-head"><p><b>The Basic Language of the Web: HTML</b></p></h2>
-            <img src="images/Task_HTML_level_1_GDSC.webp" alt="image tag" height="50px" width="50px">
+            <img src="images/Task_HTML_level_1_GDSC.webp" alt="image tag" height="100px" width="100px">
             <p>Posted by <b class="author">Laura Jones</b> on Monday, June 21st 2027</p>
             <img src="images/Task_HTML_level_1_GDSC.webp" alt="image tag" height="200px" width="500px">
             <p>All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
@@ -41,7 +45,7 @@
                 <li>The closing tag</li>
                 <li>The actual element</li>
             </ol>
-            <p>You can learn more at the <a href="">MDN Web Docs</a>.</p>
+            <p>You can learn more at the <a href="" class="links2">MDN Web Docs</a>.</p>
         </section>
         <!-- end HTML definition section -->
         
@@ -63,15 +67,15 @@
         <!-- end pros of HTML section -->
         
         <!-- start section -->
-        <section class="why-learn-html">
+        <section class="why-learn-html2">
             <p class="sub-head"><b>related posts</b></p>
             <!-- start list -->
-            <ul>
-                <li><img src="images/Task_HTML_level_1_GDSC.webp" alt="" height="50px" width="100px"><a href="">How To Learn Web Development</a></li>
+            <ul class="ul">
+                <li><img src="images/Task_HTML_level_1_GDSC.webp" alt="" height="50px" width="100px"><a href="" class="links2">How To Learn Web Development</a></li>
                 <p class="owner">By Jonas Schmedtmann</p>
-                <li><img src="images/Task_HTML_level_1_GDSC.webp" alt="" height="50px" width="100px"><a href="">The Unknown Powers of CSS</a></li>
+                <li><img src="images/Task_HTML_level_1_GDSC.webp" alt="" height="50px" width="100px"><a href="" class="links2">The Unknown Powers of CSS</a></li>
                 <p class="owner">By Jim Dillon</p>
-                <li><img src="images/Task_HTML_level_1_GDSC.webp" alt="" height="50px" width="100px"><a href="">Why JavaScript is Awesome</a></li>
+                <li><img src="images/Task_HTML_level_1_GDSC.webp" alt="" height="50px" width="100px"><a href="" class="links2">Why JavaScript is Awesome</a></li>
                 <p class="owner">By Matilda</p>
             </ul>
             <!-- end list -->
@@ -79,26 +83,25 @@
         <!-- end section -->
         
         <!-- start section -->
-        <section class="why-learn-html">
-            <form style="display: inline;">
-                <label for="Name" style="display: inline;"><mark>name</mark></label> 
+        <section class="why-learn-html3">
+            <!-- start form -->
+            <form class="form">
+                <label for="Name">name: </label> 
                 <input type="text" placeholder="enter your name" required name="Name" style="display: inline;">
-                
-                <label for="Code" style="display: inline;"><mark>code</mark></label> 
-                <input type="text" placeholder="enter your code" required name="Code" style="display: inline;">
-
-                <select name="year" style="display: inline;">
+                <label for="Code">code: </label> 
+                <input type="text" placeholder="enter your code" required name="Code">
+                <select name="year">
                     <option value="1">year 1</option>
                     <option value="2">year 2</option>
                     <option value="3">year 3</option>
                     <option value="4">year 4</option>
                 </select>
-
-                <input type="submit" value="End" style="display: inline;">
+                <input type="submit" value="End">
             </form>
+            <!-- end form -->
         </section>
         <!-- dividing line -->
-        <hr>
+        <!-- <hr> -->
         <!-- start footer -->
         <footer class="footer">
             <p>Copyright &copy; 2027 by The Code Magazine.</p>

@@ -1,7 +1,12 @@
+body{
+    line-height: 170%;
+    word-spacing: 1px;
+}
+
 .header{
     background-color: #d3d3d3;
     display: inline-block;
-    padding: 10px 500px 10px 500px;
+    padding: 10px 282px 10px 500px;
     margin: auto ;
     border-top-style: dashed ;
     border-right-style: dashed ;
@@ -9,78 +14,114 @@
     border-top-width: 5px ;
     border-right-width: 5px ;
     border-left-width: 5px ;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
 }
+
+.code-magazine{
+    white-space: nowrap;
+    margin: auto;
+    text-shadow: 1px 1px 1px rgb(95, 58, 58);
+}
+
 
 .basic-html{
     background-color: #bdbebd;
     display: inline-block;
-    padding: 10px 500px 0px 50px;
+    padding: 10px 500px 0px 70px;
     margin: auto ;
     border-right-style: dashed ;
     border-left-style: dashed ;
     border-right-width: 5px ;
     border-left-width: 5px ;
+    font-size: 25px;
 }
 
 .what-is-html{
     background-color: #a9a9a9;
     display: inline-block;
-    padding: 20px 500px 0px 50px;
+    padding: 20px 500px 0px 70px;
     margin: auto ;
     border-right-style: dashed ;
     border-left-style: dashed ;
     border-right-width: 5px ;
     border-left-width: 5px ;
+    font-size: 25px;
 }
 
 .why-learn-html{
     background-color: #949494;
     display: inline-block;
-    padding: 10px 834px 0px 50px;
+    padding: 10px 288px 0px 70px;
     margin: auto ;
     border-right-style: dashed ;
     border-left-style: dashed ;
     border-right-width: 5px ;
     border-left-width: 5px ;
+    font-size: 25px;
+}
+
+.why-learn-html2{
+    background-color: #949494;
+    display: inline-block;
+    padding: 10px 687px 0px 70px;
+    margin: auto ;
+    border-right-style: dashed ;
+    border-left-style: dashed ;
+    border-right-width: 5px ;
+    border-left-width: 5px ;
+    font-size: 25px;
+}
+
+.why-learn-html3{
+    background-color: #949494;
+    padding: 10px 696px 0px 70px;
+    border-right-style: dashed ;
+    border-left-style: dashed ;
+    border-right-width: 5px ;
+    border-left-width: 5px ;
+    font-size: 25px;
 }
 
 .footer{
     background-color: #808080;
     display: inline-block;
-    padding: 10px 600px 50px 500px;
+    padding: 10px 389px 50px 500px;
     border-right-style: dashed ;
     border-left-style: dashed ;
     border-bottom-style: dashed ;
     border-right-width: 5px ;
     border-left-width: 5px ;
     border-bottom-width: 5px ;
+    white-space: nowrap;
+    font-size: 20px;
 }
 
-.head{
-    color: red;
-
-}
-
-.sub-head{
-    color: red;
-}
-
-.owner{
-    color: red;
-}
-
-.html{
-    color: red;
-}
-
-.list1{
-    color: red;
-}
-
-.list2{
-    color: red;
-}
-
+.head,
+.sub-head,
+.owner,
+.html,
+.list1,
+.list2,
 .author{
     color: red;
+    white-space: nowrap;
 }
+
+.ul{
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.links{
+    white-space: nowrap;
+    /* text-decoration: none; */
+}
+
+.links2{
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(175, 67, 67);
+}
+
